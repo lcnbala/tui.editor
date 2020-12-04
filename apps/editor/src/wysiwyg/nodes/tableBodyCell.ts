@@ -9,7 +9,7 @@ export class TableBodyCell extends Node {
 
   get schema() {
     return {
-      content: 'text*',
+      content: '(paragraph | orderedList | bulletList)+',
       attrs: {
         align: { default: null },
         className: { default: null }

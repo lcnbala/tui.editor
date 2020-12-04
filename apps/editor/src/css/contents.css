@@ -179,6 +179,10 @@
   padding-top: 6px;
 }
 
+.tui-editor-contents table p {
+  margin: 0;
+}
+
 .tui-editor-contents ul,
 .tui-editor-contents menu,
 .tui-editor-contents ol,

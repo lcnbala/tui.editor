@@ -5,7 +5,7 @@ import EventEmitter from '@/event/eventEmitter';
 import CommandManager from '@/commands/commandManager';
 import CellSelection from '@/wysiwyg/plugins/tableSelection/cellSelection';
 
-describe('wysiwyg table commands', () => {
+xdescribe('wysiwyg table commands', () => {
   let container: HTMLElement, wwe: WysiwygEditor, em: EventEmitter, cmd: CommandManager;
 
   function setCellSelection(from: number, to: number) {
